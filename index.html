@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2c2c</title>
+    <style>
+        /* Define the Title font */
+@font-face {
+  font-family: 'Title';
+  src: url('title.ttf') format('truetype');
+}
+
+/* Define the Regular font */
+@font-face {
+  font-family: 'Regular';
+  src: url('normal.otf') format('opentype');
+}
+
+/* Apply the Title font to h2 elements */
+h2 {
+  font-family: 'Title', sans-serif;
+}
+
+/* Apply the Regular font to paragraphs */
+p {
+  font-family: 'Regular', sans-serif;
+}
+
+        #section {
+  background-color: #414141; /* Set background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Apply slight black shadow */
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Welcome to 2c2c</h1>
+    <div id="section">
+        <h2>2c2c</h2>
+        <p>2c2c is a minecraft semi-anarchy server. You can only grief things made in the end.</p>
+    </div>
 </body>
 </html>
